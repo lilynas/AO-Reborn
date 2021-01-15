@@ -1,4 +1,4 @@
-#!/bin/bash
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git  #!/bin/bash
 #
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
@@ -15,3 +15,7 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lede/
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/lede/
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lede/
+git clone https://github.com/tty228/luci-app-serverchan.git package/lede/
